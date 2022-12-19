@@ -1,0 +1,37 @@
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.deps.json
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.csprojAssemblyReference.cache
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfoInputs.cache
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfo.cs
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.json
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.dev.json
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.genruntimeconfig.cache
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Hugo Garcia\source\repos\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.deps.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.dev.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfoInputs.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfo.cs
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.genruntimeconfig.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.deps.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.runtimeconfig.dev.json
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\bin\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.csproj.AssemblyReference.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfoInputs.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.AssemblyInfo.cs
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.dll
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.pdb
+C:\Users\Public\Fedesoft\10_ProyectoFinal\Mundial4.2\Mundial\Mundial.DAL\obj\Debug\netcoreapp3.1\Mundial.DAL.genruntimeconfig.cache

@@ -5758,11 +5758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial\\Mundial.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial\\Mundial.csproj",
       "projectName": "Mundial",
-      "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial\\Mundial.csproj",
+      "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial\\Mundial.csproj",
       "packagesPath": "C:\\Users\\namontealegre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial\\obj\\",
+      "outputPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\namontealegre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5779,11 +5779,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj": {
-              "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj"
+            "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj": {
+              "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj"
             },
-            "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj": {
-              "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj"
+            "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj": {
+              "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj"
             }
           }
         }

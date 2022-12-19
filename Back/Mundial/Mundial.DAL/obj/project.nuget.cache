@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "azcbokHDsj41/Cg83aKHouHC4oC2eX3OPQYLl52hi4xExGtbw2eeHuM/gnS1qYzX1wLK0JiKOJ22fHSxjP5Mrg==",
+  "dgSpecHash": "0sN3tnoIuh6zSv2VsakaBj99HWlOJQFs9iLQ4U577Y5NL3POsH2ah6d0x5EwGo8uzjSozeTfzURbd4dy8JkzdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namontealegre\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",
     "C:\\Users\\namontealegre\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.9\\microsoft.aspnet.webapi.client.5.2.9.nupkg.sha512",

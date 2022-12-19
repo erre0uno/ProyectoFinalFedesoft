@@ -23,15 +23,19 @@
         /// <param name="usuario"></param>
         /// <returns> token, es retornado en Json con la key 'token' </returns>
         public async Task<string> BuildToken(string key, string issuer, UsuarioDTO usuario)
-        {
+        {   
+            // parte 2 datos que tenemos token
             var claims = new[] {
             new Claim(ClaimTypes.Name, usuario.Nombre),
             new Claim(ClaimTypes.Role, usuario.Tipo),
             new Claim(ClaimTypes.NameIdentifier, Guid.NewGuid().ToString() )
             };
-
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key));
+            //parte 1 tipo clave
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)); 
+            // parte 3 credenciales-encriptacion
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+            
+            // construccion del token
             var tokenDescriptor = new JwtSecurityToken(
                 issuer, 
                 issuer, 

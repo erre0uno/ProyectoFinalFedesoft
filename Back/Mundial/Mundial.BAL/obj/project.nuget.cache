@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y9IdWllK7/8Olo/iglXI0hsgPkcVIjr6pK3GOx9rv59ddIPfmeB7zLHHY78vZrXDsG1AuY63kWxfCIBlfMOUqw==",
+  "dgSpecHash": "7qUd0p0V0yJMs1vl6utrHarVwSrRCjBo5MmsPsioEYK34NioAuJBjfWhGj1yCSNortcGqjeRen+gdUqlzs6KsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.BAL\\Mundial.BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namontealegre\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\namontealegre\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",

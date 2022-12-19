@@ -5245,11 +5245,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
       "projectName": "Mundial.DAL",
-      "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
+      "projectPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\Mundial.DAL.csproj",
       "packagesPath": "C:\\Users\\namontealegre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\namontealegre\\AppData\\Roaming\\NuGet\\NuGet.Config",

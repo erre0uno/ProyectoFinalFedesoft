@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYV2pM1GsuXWsL5z6JRLxerjeD1OxO8GL8vx1jnwS8epDPubxnf5fZEtly1DokqYCGrsVHKmhHDcVORu66JGYQ==",
+  "dgSpecHash": "lKZRHfZzT2GYzTeIcECx89rd2VTjG8ynTYVFybL40XEU6Eth6yyPraeLjaos85KXX4koMXjhFzni/2Z9Nk9eTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\Mundial4.2\\Mundial\\Mundial\\Mundial.csproj",
+  "projectFilePath": "C:\\Users\\Public\\Fedesoft\\10_ProyectoFinal\\ProyectoFinal\\Back\\Mundial\\Mundial\\Mundial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\namontealegre\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\namontealegre\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",

@@ -10,7 +10,7 @@
     using System.Threading.Tasks;
     #endregion Using
 
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase
@@ -25,6 +25,7 @@
 
         #region Get
         // GET: api/<UsuarioController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<UsuarioDTO>> Get()
         {

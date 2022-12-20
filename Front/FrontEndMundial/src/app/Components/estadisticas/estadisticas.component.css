@@ -1,0 +1,72 @@
+.divTitulo {
+  display: flex;
+  justify-content: center;
+}
+.containerTitulo {
+  color: #ffffff;
+  width: 97%;
+  margin-top: 25px;
+  font-size: 17px;
+  align-items: center;
+}
+
+.container {
+  background-color: #202124;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 880px;
+  padding: auto 29px;
+}
+
+/* Structure */
+table {
+  width: 100%;
+  border-color: #3c4043;
+  border-right: 1px;
+  border-collapse: collapse;
+}
+
+.cabeceraTable {
+  color: rgb(216, 216, 216);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+tbody th {
+  color: white;
+}
+
+tbody td {
+  color: whitesmoke;
+  width: 0%;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.imgJugadores {
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  float: left;
+}
+.text {
+  padding-top: 15px;
+  padding-left: 55px;
+}
+
+/* .contenedorTabla{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.TableEstadisticas{
+    align-items: center;
+    width: 70%;
+
+} */

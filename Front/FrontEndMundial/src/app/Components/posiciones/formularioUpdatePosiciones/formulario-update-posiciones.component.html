@@ -1,0 +1,111 @@
+<div class="boton-update">
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+    data-bs-whatever="@mdo">
+    Editar
+  </button>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+          Actualizar Tabla
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+          (click)=" limpiarFormulario()"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <div class="formulario-actualizar">
+          <div class="fila-select">
+            <div>
+              <select [(ngModel)]="opcionSeleccionado" (change)="capturar()" class="form-select form-select-sm">
+                <option value="0">Selecciona una opción</option>
+                <option *ngFor="let info of tablaPosicionesServices.listPosiciones" value="{{ info.id }}">
+                  {{ info.nombreEquipo }}
+                </option>
+              </select>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-primary" (click)="editar(tablaPosicionesServices.listPosiciones)">
+                Editar
+              </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <label for="input">Nombre Equipo</label>
+              <input type="text" class="form-control" type="text" [(ngModel)]="nombreEquipo" disabled />
+            </div>
+            <div class="col-6">
+              <label>Id:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="id" disabled />
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-6">
+              <label>Pj:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="pj" />
+            </div>
+            <div class="col-6">
+              <label>Pg:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="pg" />
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-6">
+              <label for="input">Pe:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="pe" />
+            </div>
+            <div class="col-6">
+              <label for="">Pp:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="pp" />
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-6">
+              <label for="">Gf:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="gf" />
+            </div>
+            <div class="col-6">
+
+              <label for="">Gc:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="gc" />
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-6">
+              <label for="input">Puntos:</label>
+              <input type="text" class="form-control" type="number" [(ngModel)]="pts" />
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)=" limpiarFormulario()">
+          Close
+        </button>
+        <button type="submit" class="btn btn-success boton-editar" data-bs-dismiss="modal" (click)="enviarInfo()">
+          Actualizar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

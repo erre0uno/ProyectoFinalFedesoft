@@ -1,0 +1,79 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+.Subcontenedor {
+  width: 55%;
+  display: flex;
+}
+tbody tr td {
+  border: none;
+  color: white;
+}
+.example-card {
+  border-radius: 0px;
+  height: 158px;
+  color: white;
+  background-color: #202124;
+  border-top: 0.1px solid #838588;
+  border-bottom: 0.1px solid #838588;
+}
+.example-card:hover {
+  background-color: #18191a;
+}
+.card1 {
+  border-right: 0.2px solid #838588;
+}
+.div1 {
+  flex: 1 1 auto;
+}
+.div2 {
+  flex: 1 1 auto;
+}
+.info1 {
+  padding: 10px;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 4 1 auto;
+  border-right: 0.2px solid #838588;
+}
+.info2 {
+  padding: 0px 8px;
+  text-align: center;
+}
+.info1 p {
+  margin: 10px 0px;
+}
+p {
+  margin: 0%;
+}
+.conetenedorCard {
+  display: flex;
+  justify-content: space-around;
+}
+.divTitulo {
+  display: flex;
+  justify-content: center;
+}
+.containerTitulo {
+  color: white;
+  width: 55%;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .Subcontenedor {
+    width: 80%;
+    flex-direction: column;
+  }
+  .containerTitulo {
+    width: auto;
+  }
+  .example-card {
+    margin-bottom: 10px;
+    border-right: 0px;
+  }
+}

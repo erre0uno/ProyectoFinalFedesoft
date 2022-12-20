@@ -25,6 +25,7 @@
 
         #region Get
         // GET: api/<EquiposController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<EquipoDTO>> Get()
         {

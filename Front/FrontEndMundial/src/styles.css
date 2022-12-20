@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+  background-color: #1b1b1d;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.contenedor-page {
+  margin: 15px auto;
+  padding: 15px;
+  min-height: calc(100vh - 196px);
+}
+
+.divFooter {
+  margin-bottom: 0px;
+}

@@ -57,6 +57,7 @@
                 generatedToken = await _tokenRepository.BuildToken(_config["Jwt:Key"].ToString(), _config["Jwt:Issuer"].ToString(), validUser);
                 if (generatedToken != null)
                 {
+                    //retorna el token en key token en formato json
                     return Ok(new {
                         token=generatedToken,
                     });

@@ -25,6 +25,7 @@
 
         #region GetAll
         // GET: api/<UsuariosController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<GoleadorDTO>> Get()
         {

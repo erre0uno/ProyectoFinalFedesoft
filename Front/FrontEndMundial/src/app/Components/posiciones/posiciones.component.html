@@ -1,0 +1,251 @@
+<div class="contenedor-page posiciones">
+  <div>
+    <div class="grupos">
+      <div *ngIf="admin">
+        <app-formulario-update-posiciones></app-formulario-update-posiciones>
+      </div>
+      <h2>Grupo A</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Equipo</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>PE</th>
+            <th>PP</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>PTS</th>
+            <th>PARTIDOS JUGADOS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let info of tablaPosicionesServices.listPosiciones| slice:0:4">
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.nombreEquipo }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.pj }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.pg }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.pe }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.pp }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.gf }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.gc }}</td>
+            <td *ngIf="info.id!>= 1 && info.id! <=4">{{ info.puntos }}</td>
+
+
+            <td class="td-iconos" *ngIf="info.id!>= 1 && info.id! <=4">
+              <div *ngIf="info.id===1">
+                <div class="ultimos-partidos" *ngFor="let result of partidosQatar">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===2">
+                <div class="ultimos-partidos" *ngFor="let result of partidosEcuador">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===3">
+                <div class="ultimos-partidos" *ngFor="let result of partidosSenegal">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===4">
+                <div class="ultimos-partidos" *ngFor="let result of partidosPaisesBajo">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grupos">
+      <h2>Grupo B</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Equipo</th>
+            <th>PJ</th>
+            <th>PG</th>
+            <th>PE</th>
+            <th>PP</th>
+            <th>GF</th>
+            <th>GC</th>
+            <th>PTS</th>
+            <th>PARTIDOS JUGADOS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let info of tablaPosicionesServices.listPosiciones | slice:4:8">
+            <td *ngIf="info.id!>= 5 && info.id! <=8">{{ info.nombreEquipo }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.pj }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.pg }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.pe }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.pp }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.gf }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.gc }}</td>
+            <td *ngIf="info.id!>= 5  && info.id! <=8">{{ info.puntos }}</td>
+            <td class="td-iconos" *ngIf="info.id!>= 5 && info.id! <=8">
+
+
+              <div *ngIf="info.id===5">
+                <div class="ultimos-partidos" *ngFor="let result of partidosInglaterra">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===6">
+                <div class="ultimos-partidos" *ngFor="let result of partidosGales">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===7">
+                <div class="ultimos-partidos" *ngFor="let result of partidosIran">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+
+              <div *ngIf="info.id===8">
+                <div class="ultimos-partidos" *ngFor="let result of partidosEEUU">
+
+                  <div *ngIf="result.equipoId === info.equipoId">
+                    <div class="up1" *ngIf="result.gf>result.gc">
+                      <mat-icon class="icon-victoria">check_circle</mat-icon>
+                    </div>
+                    <div class="up1" *ngIf="result.gf<result.gc; else empate">
+                      <mat-icon class="icon-derrota">cancel</mat-icon>
+                    </div>
+
+                    <ng-template #empate>
+                      <div class="up1" *ngIf="result.gf === result.gc">
+                        <mat-icon class="icon-empate">remove_circle</mat-icon>
+                      </div>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="rango">
+      <h3>Últimos 3</h3>
+      <div class="victoria">
+        <mat-icon class="icon-victoria">check_circle</mat-icon> Ganó
+      </div>
+      <div class="empate">
+        <mat-icon class="icon-empate">remove_circle</mat-icon> Empate
+      </div>
+      <div class="perdio">
+        <mat-icon class="icon-derrota">cancel</mat-icon> Perdió
+      </div>
+    </div>
+
+
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<form [formGroup]="fValidator" class="px-3">
+
+  <div class="mb3 m-3">
+    <label for="id" class="form-label" *ngIf="usuario.id!=0">Id</label>
+    <input formControlName="id" type="text" class="form-control" [(ngModel)]="id" name="id" readonly
+      *ngIf="usuario.id!=0" />
+  </div>
+  <div class="mb3 m-3">
+    <label for="nombre" class="form-label">Nombre</label>
+    <input formControlName="nombre" type="text" class="form-control validate" [(ngModel)]="nombre" name="nombre" />
+  </div>
+  <div class="mb3 m-3">
+    <label *ngIf="usuario.id==0" for="clave" class="form-label"> Clave </label>
+    <label *ngIf="usuario.id!=0" for="clave" class="form-label"> Clave Nueva </label>
+    <input formControlName="clave" type="text" class="form-control validate" [(ngModel)]="clave" name="clave" />
+  </div>
+  <div class="m-3 text-center ">
+    <button [disabled]="!fValidator.valid" type="submit" class="btn btn-primary me-3 btn-success" style="width: 100px"
+      (click)="agregarUsuario()" *ngIf="usuario.id==0">
+      Crear
+    </button>
+    <button [disabled]="!fValidator.valid" type="submit" class="btn btn-primary me-3 btn-warning" style="width: 100px"
+      (click)="updateUsuario()" *ngIf="usuario.id!=0">
+      Actualizar
+    </button>
+  </div>
+</form>

@@ -24,6 +24,7 @@
 
         #region Get
         // GET: api/<AsistenciaController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<AsistenciaDTO>> Get()
         {

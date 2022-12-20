@@ -23,6 +23,7 @@
 
         #region Get
         // GET: api/<UsuarioController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<JugadorDTO>> Get()
         {

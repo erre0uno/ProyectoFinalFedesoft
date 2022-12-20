@@ -25,6 +25,7 @@
 
         #region Get
         // GET: api/<TablaPosicionesController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<TablaPosicionesDTO>> Get()
         {

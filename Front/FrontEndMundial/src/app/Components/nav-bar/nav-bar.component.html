@@ -1,0 +1,46 @@
+<mat-toolbar color="primary" class="toolbar">
+  <div class="superior">
+    <div class="titulo-back">
+      <mat-icon> <a href="login" class="button-back" *ngIf="!admin"> arrow_back</a></mat-icon>
+      <span class="text-top">Copa Mundial de la FIFA Catar 2022™</span>
+    </div>
+    <a *ngIf="!admin" href="login" class="LogOut"><button mat-button><span>Iniciar Sesión</span></button></a>
+    <a *ngIf="admin" href="login" class="LogOut" (click)="logOut()"><button mat-button><span>Cerrar
+          Sesión</span></button></a>
+
+
+  </div>
+
+  <div class="inferior">
+    <a href="partidos"><button mat-button>PARTIDOS</button></a>
+    <a href="jugadores"><button mat-button>JUGADORES</button></a>
+    <a href="estadisticas"><button mat-button>ESTADISTICAS</button></a>
+    <a href="posiciones"><button mat-button>POSICIONES</button></a>
+
+    <a *ngIf="admin" href="usuarios"><button mat-button>USUARIOS</button></a>
+
+  </div>
+  <div class="button-responsive">
+    <button (click)="menuResponsive()">
+      <mat-icon class="menu">menu</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+<mat-toolbar class="toolbar-responsive">
+  <div class="menu-responsive">
+    <div class="button-close">
+      <button (click)="closeResponsive()"><mat-icon>close</mat-icon></button>
+    </div>
+    <div class="logo">
+      <img src="../../../assets/img/Qatar2022.png" alt="logo-mundial">
+    </div>
+    <div class="menu">
+      <a href="partidos"><button mat-button>PARTIDOS</button></a>
+      <a href="jugadores"><button mat-button>JUGADORES</button></a>
+      <a href="estadisticas"><button mat-button>ESTADISTICAS</button></a>
+      <a href="posiciones"><button mat-button>POSICIONES</button></a>
+      <a *ngIf="admin" href="usuarios"><button mat-button>USUARIOS</button></a>
+    </div>
+
+  </div>
+</mat-toolbar>

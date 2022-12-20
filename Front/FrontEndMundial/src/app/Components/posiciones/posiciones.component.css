@@ -1,0 +1,110 @@
+.contenedor-page.posiciones {
+  max-width: 880px;
+  margin: 15px auto;
+  margin-top: 30px;
+  background-color: #202124;
+  padding: 15px;
+  color: #bdc1c6;
+}
+
+.contenedor-page.posiciones table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contenedor-page.posiciones .ultimos-partidos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.td-iconos {
+  display: flex;
+  justify-content: center;
+}
+.td-iconos div {
+  display: flex;
+}
+
+.contenedor-page.posiciones .ultimos-partidos > div {
+  display: flex;
+  padding: 2px;
+}
+
+.contenedor-page.posiciones tbody > tr > td:not(:first-child) {
+  text-align: center;
+}
+
+.contenedor-page.posiciones thead > tr > th:last-child {
+  width: 130px;
+}
+
+.contenedor-page.posiciones thead > tr > th:first-child {
+  width: 265px;
+}
+
+.contenedor-page.posiciones tr th:not(:first-child) {
+  text-align: center;
+}
+.contenedor-page.posiciones .icon-victoria {
+  color: #3aa757;
+}
+
+.contenedor-page.posiciones .icon-derrota {
+  color: #ea4335;
+}
+
+.contenedor-page.posiciones .icon-empate {
+  color: #9aa0a6;
+}
+
+.contenedor-page.posiciones .icon-nojugo {
+  color: #ffffff;
+}
+
+.contenedor-page.posiciones .grupos {
+  margin-bottom: 15px;
+}
+
+.contenedor-page.posiciones .rango {
+  background-color: #424548;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.contenedor-page.posiciones .rango mat-icon {
+  vertical-align: bottom;
+}
+
+.contenedor-page.posiciones tbody > tr {
+  border-top: 1px solid #3c4043;
+}
+
+@media (max-width: 425px) {
+  .contenedor-page.posiciones .mat-icon {
+    font-size: 14px;
+    height: auto;
+    width: auto;
+  }
+
+  .contenedor-page.posiciones tr th {
+    font-size: 12px;
+  }
+
+  .contenedor-page.posiciones .rango mat-icon {
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 767px) {
+  .contenedor-page.posiciones thead > tr > th:not(:first-child, :last-child),
+  .contenedor-page.posiciones tbody > tr > td:not(:first-child, :last-child) {
+    border: 1px solid #3c4043;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .contenedor-page.posiciones tr th {
+    font-weight: 500;
+  }
+}

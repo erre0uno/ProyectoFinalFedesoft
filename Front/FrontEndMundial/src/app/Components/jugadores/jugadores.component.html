@@ -1,0 +1,31 @@
+<div class="contenedor-page jugadores">
+
+    <div class="list-cards">
+        <div *ngFor="let numero of listaNumeroRandom">
+            <div *ngFor="let item of JugadorList$|async">
+
+                <div class="card m-1" *ngIf="item.id === numero">
+                    <div class="imagen">
+                        <img mat-card-image src="assets/imagenes/jugadores/{{item.id}}.png" height="100px" />
+                    </div>
+
+                    <div class="card-content text-center">
+                        <div class="nombre">{{item.nombre| uppercase}}</div>
+                        <div class="apellido">{{item.apellidos| uppercase}}</div>
+                        <div class="posicion">{{item.nombrePosicion| uppercase}}</div>
+                    </div>
+
+                    <div class="card-footer text-center">
+                        <div class="equipo ">
+                            <img src="assets/imagenes/paises/{{item.equipoId}}.png" alt="" width="50%">
+                            <p>
+                                {{item.nombreEquipo| uppercase}}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

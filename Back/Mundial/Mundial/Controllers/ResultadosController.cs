@@ -25,6 +25,7 @@
 
         #region GetAll
         // GET: api/<ResultadoController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<ResultadoDTO>> Get()
         {

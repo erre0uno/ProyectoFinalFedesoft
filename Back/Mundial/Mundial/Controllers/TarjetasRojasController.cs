@@ -26,6 +26,7 @@
 
         // GET: api/<TarjetasRojasController>
         #region GetAll
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<TarjetaRojaDTO>> Get()
         {

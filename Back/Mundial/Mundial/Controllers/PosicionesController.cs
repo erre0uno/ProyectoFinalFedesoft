@@ -21,9 +21,10 @@
         {
             _repositorio = repositorio;
         }
-  
+
         #region GetAll
         // GET: api/<PosicionesController>
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<PosicionDTO>> Get()
         {

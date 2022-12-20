@@ -26,12 +26,12 @@
         #region CreateUsuario
         public async Task<UsuarioDTO> CreateAsync(UsuarioDTO c)
         {
-            // tipo encriptacion
+            // tipo encriptacion y copnfiguracion
             string salt = BCrypt.Net.BCrypt.GenerateSalt(10);
 
             var usuario = new Usuario()
             {
-            Id = c.Id,
+                Id = c.Id,
                 Nombre = c.Nombre,
                 Clave = BCrypt.Net.BCrypt.HashPassword(c.Clave, salt), // encriptacion de clave
                 Tipo = c.Tipo

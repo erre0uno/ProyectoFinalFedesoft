@@ -34,6 +34,7 @@ export class JugadoresComponent {
         }
 
         end++;
+        //this.listaNumeroRandom.count() === 20 ? (rept = -1) : false;
         end === 20 ? (rept = -1) : false;
       }
     }
